@@ -10,5 +10,5 @@ Month=`expr $MonthPrep - 1`
 
 Year=$(date +"%Y")
 
-perl /var/www/Data/Music/code/iTunesPlayListing/iTunesPlayListing.pl $Month $Year
+perl /[PATH]/iTunesPlayListing.pl $Month $Year
 
